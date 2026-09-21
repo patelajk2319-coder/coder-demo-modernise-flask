@@ -50,3 +50,4 @@ task build   # Docker build + run on :8000
 Modernization work happens on `modernize/<coder-workspace-name>` branches, created
 automatically by the Coder workspace template — never on `main`. `main` has GitHub
 branch protection (no direct pushes, PR + review required) as a backstop.
+
