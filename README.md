@@ -17,7 +17,7 @@ upgrading this app with Claude Code while keeping its API surface identical.
   of a schema/model.
 - A single in-memory list (`ITEMS`), loaded once at import and rewritten to
   `data.json` on every write — no locking, no database, no concurrency safety.
-- `Flask==2.2.5` / `Werkzeug==2.2.3` — old enough to predate typed, auto-documented
+- `Flask==2.3.3` / `Werkzeug==2.3.7` — old enough to predate typed, auto-documented
   frameworks like FastAPI.
 
 None of this is a trick or a landmine — it's meant to be a small, honest legacy
